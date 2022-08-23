@@ -1,0 +1,262 @@
+* {
+    font-family: "Lato-Light", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.microsoft {
+    margin-left: 100px;
+    height: 50px;
+    width: 120px;
+    float: left;
+    /* border: 1px solid red;s */
+}
+
+.banner,
+img {
+    width: 100%;
+    position: relative;
+}
+
+.heading {
+    color: white;
+    position: absolute;
+    top: 42%;
+    width: 400px;
+    left: 5%;
+}
+
+.para {
+    color: white;
+    position: absolute;
+    top: 57%;
+    width: 400px;
+    left: 5%;
+}
+
+.btn1 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 66%;
+    height: 34px;
+    width: 120px;
+    padding: 8px;
+    font-size: 12px;
+    left: 5%;
+    cursor: pointer;
+}
+
+.campus {
+    margin-top: 50px;
+}
+
+.campusheading {
+    width: 500px;
+    /* height: 50px; */
+    color: rgb(15, 214, 214);
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: auto;
+
+}
+
+.campusimgdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+
+.campusimg {
+    width: 280px;
+    height: 350px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.campusimgdiv>div>img {
+    width: 250px;
+}
+
+.campusimgdiv>div>h3 {
+    width: 200px;
+    padding: 10px 0 10px 0;
+    line-height: 22px;
+}
+
+.campusimgdiv>div>ul>li {
+    font-size: 12px;
+    margin-left: 12px;
+    padding: 5px;
+    line-height: 17px;
+}
+
+.campusimgdiv>div>ul>li>span {
+    text-decoration: underline;
+}
+
+/*pivot */
+
+.pivota {
+    width: 600px;
+    text-align: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.pivota>a {
+    border: none;
+    text-decoration: none;
+    color: gray;
+    margin-left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pivota>a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.pivotheading {
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    text-align: center;
+    color: rgb(15, 214, 214);
+}
+
+.pivotbox1 {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+.pivotimg1 {
+    margin-top: 90px;
+}
+
+.pivotbox1>.pivotimg1>img {
+    height: 90px;
+    width: 80px;
+}
+
+.pivotbox1>.pivotimg1>ul>li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+
+/* ==================== */
+
+
+.pivotbox2 {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+.pivotbox2>.pivotimg2 {
+    width: 550px;
+    height: 350px;
+}
+
+.pivotimg3 {
+    margin-top: 80px;
+}
+
+.pivotbox2>.pivotimg3>img {
+    height: 90px;
+    width: 80px;
+}
+
+.pivotbox2>.pivotimg3>ul>li {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 380px;
+}
+
+
+.pivotimg2>img {
+    width: 550px;
+    height: 350px;
+}
+
+/* =================== */
+.institutes {
+    border-top: 1px solid rgb(179, 178, 178);
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    margin-top: 80px;
+    height: 400px;
+}
+
+.maininstitute>h2 {
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    text-align: center;
+    color: rgb(15, 214, 214);
+}
+
+.instituteimg>img {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.instituteimg {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+/* ========= */
+.footer {
+    background-color: rgb(80, 80, 80);
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer>p {
+    width: 320px;
+    font-size: 13px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.footer>p>span {
+    text-decoration: underline;
+}

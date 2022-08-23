@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="microsoft">
+        <img src="./Images/microso.png" alt="">
+    </div>
+
+
+    <div class="banner">
+        <img src="./Images/banner.png" alt="">
+        <h1 class="heading">Become a 'Trusted Cloud' Campus</h1>
+        <p class="para">Empower your institute with best-of-breed cloud services and solutions</p>
+        <button class="btn1">Enroll now ></button>
+    </div>
+
+    <div class="campus">
+        <h2 class="campusheading">Solution components for your campus</h2>
+
+        <div class="campusimgdiv">
+
+            <div class="campusimg">
+                <img src="./Images//campus1.png" alt="">
+                <h3>Communication and Collaboration</h3>
+                <ul>
+                    <li>
+                        50 GB e-mail box with school domain
+                        <span>(e.g yourname@yourschooldomain.in)</span>
+                    </li>
+                    <li>
+                        Online sharing of documents
+                    </li>
+                </ul>
+            </div>
+
+            <div class="campusimg">
+                <img src="./Images//campus2.png" alt="">
+                <h3>Productivity Tools and Platform</h3>
+                <ul>
+                    <li>
+                        Upgrade to the latest version of Windows 10
+                    </li>
+                    <li>
+                        Faculty and students can use Office
+                        ProPlus, <br> Suit on upto five different devices
+                    </li>
+                    <li>
+                        Collaborate and co-create content for classes, assignments and project
+                    </li>
+                </ul>
+            </div>
+
+            <div class="campusimg">
+                <img src="./Images//campus3.png" alt="">
+                <h3>Cloud Services and Storage</h3>
+                <ul>
+                    <li>
+                        1.0 TB of cloud storage fot=r your content on OneDrive
+                    </li>
+                    <li>
+                        Mobile Device Management with Microsoft intune
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="campusimg">
+                <img src="./Images//campus4.png" alt="">
+                <h3>Reach Learning Resources</h3>
+                <ul>
+                    <li>
+                        Access to the latest learning content on Microsoft technologies with Microsoft Imagine
+                        Academy
+                    </li>
+                    <li>
+                        Get students and faculty industry ready with Microsoft Certification
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div>
+        <div class="pivota">
+            <a id="pivotbtn1">Pivot 1</a>
+            <a id="pivotbtn2">Pivot 2</a>
+            <a id="pivotbtn3">Pivot 3</a>
+            <!-- <button id="pivotbtn3">Pivot 3</button> -->
+        </div>
+
+        <div>
+            <h2 class="pivotheading">Edu-Cloud advantages for your campus</h2>
+        </div>
+
+
+        <div id="pivotpage1">
+            hi
+        </div>
+
+
+        <div>
+
+            <div class="maininstitute" >
+                <h2>Edu-Cloud Institutes</h2>
+
+                <div class="instituteimg">
+                    <img src="./Images/institute1.png" alt="">
+                    <img src="./Images/institute2.png" alt="">
+                    <img src="./Images/institute3.png" alt="">
+                    <img src="./Images/institute4.png" alt="">
+                    <img src="./Images/institute5.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="footer">
+                <p>For more information about Edu-Cloud program,
+                    write to <span>Microsoft Edu-Cloud Program cell</span>
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
+
+<script type="module">
+
+    import { pivot1 } from "../component/pivot1.js"
+    let btn1 = document.getElementById("pivotbtn1")
+    btn1.addEventListener("click", fun1)
+
+    function fun1() {
+        console.log("hi")
+        const data = document.getElementById("pivotpage1")
+        data.innerHTML = pivot1()
+    }
+    fun1()
+
+    import { pivot2 } from "../component/pivot1.js"
+    let btn2 = document.getElementById("pivotbtn2")
+    btn2.addEventListener("click", fun2)
+
+    function fun2() {
+        console.log("hi")
+        const data = document.getElementById("pivotpage1")
+        data.innerHTML = pivot2()
+    }
+
+    import { pivot3 } from "../component/pivot1.js"
+    let btn3 = document.getElementById("pivotbtn3")
+    btn3.addEventListener("click", fun3)
+
+    function fun3() {
+        console.log("hi")
+        const data = document.getElementById("pivotpage1")
+        data.innerHTML = pivot3()
+    }
+
+
+
+
+</script>
